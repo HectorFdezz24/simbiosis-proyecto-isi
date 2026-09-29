@@ -271,7 +271,8 @@ enlazar a los términos de esta sección, pero no los definirá de nuevo.
 | Nutricionista | Profesional acreditado, común para médicos y nutricionistas. que puede publicar y validar recetas | A3 s1.2, s1.3 y 3 |
 | Acreditación profesional | Procedimiento por el que una persona demuestra su condición profesional para actuar como nutricionista | A3 s1.3 |
 | Receta aceptada | receta adecuada al perfil, las alergias o las restricciones alimentarias de un paciente. La plataforma no modifica automáticamente sus ingredientes o cantidades | DVA s1.1 y 2.1 A3 s3 |
-
+| Foro | Espacio común para compartir dudas y experiencias relacionadas con la convivencia con la enfermedad. Los usuarios pueden interactuar, compartir información y colaborar. | DVA s2.1 |
+| Coordinador | Usuario responsable de supervisar la actividad de la plataforma (Reportes de contenido inadecuado, gestiona cuentas de usuario...) | DVA s3.1 |
 
 
 
