@@ -280,6 +280,13 @@ FR-017 se conserva para no perder el identificador histórico, pero su estado es
 | --- | --- | --- | --- | --- | --- | --- |
 | NFR-07 |NFR-Q (Eficiencia; Escalabilidad; Mantenibilidad) |La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización.| G | -  | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | - |
 | NFR-01 |NFR-Q (Disponibilidad) |La plataforma alcanzará una disponibilidad mínima  del 99,5% en cada mes natural| G | -  | Mediante comprobaciones externas cada 5 minuto. | - |
+| NFR-02 |NFR-Q (Mantenibilidad; Eficiencia) |La primera versión deberá admitir al menos 100 usuarios conectados al mismo tiempo.| G | -  | Comprobar mediante registros de monitorización | - |
+| NFR-03 |NFR-Q (Seguridad) |Garantizar que las copias de seguridad sirven| G | -  | Se comprobarán mediante una prueba de restauración al menos una vez cada tres meses. Cada prueba deberá dejar constancia de la fecha, el resultado y las incidencias encontradas. | - |
+| NFR-04 |NFR-Q (Disponibilidad; Seguridad) |Mantener el control sobre la incorporación de cuidadores y nutricionistas a la plataforma| G | -  | El coordinador podrá aprobar la cuenta de un cuidador, y solo el coordinador podrá aprobar la cuenta de un nutricionista. | - |
+| NFR-05 |NFR-I (Usabilidad) |la persona usuaria podrá cambiar el idioma de la interfaz entre ambos.| G | -  | La comprobación se realizará revisando todas las pantallas y mensajes de la primera versión en ambos idiomas. | - |
+
+
+
 Categorías y atributos: 
 1) Requisitos de calidad (NFR-Q): Rendimiento, Usabilidad, Seguridad, Fiabilidad, Disponibilidad, Modificabilidad, Portabilidad, Eficiencia, Escalabilidad, Verificabilidad / Testabilidad, Robustez, Seguridad funcional (safety), Integridad, Reusabilidad, Instalabilidad.
 2) Restricciones (NFR-R): Tecnología y entorno, Hardware, Regulaciones y estándares, Compatibilidad, Interfaces existentes, Restricciones presupuestarias y de gestión.
