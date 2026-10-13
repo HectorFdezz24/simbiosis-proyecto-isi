@@ -2,9 +2,9 @@
 
 | Versión | Fecha | Estado |
 | --- | --- | --- |
-| 1.6 | 11/10/2026 | Revisado |
+| 1.7 | 13/10/2026 | Borrador |
 
-**Iteración de referencia:** E1. Este documento recoge la primera vista revisada del modelo. Será el punto de partida para ampliarlo en E2.
+**Iteración de referencia:** E2
 
 **Plantilla base:** [Plantilla del modelo de casos de uso](plantilla-modelo-casos-de-uso.md). La plantilla se conserva sin cumplimentar. Los resultados del proyecto se incorporan a este documento.
 
@@ -19,6 +19,9 @@ Incluye el registro local y sus condiciones por perfil, la verificación del cor
 La gestión básica de cuentas se representa mediante cuatro objetivos del coordinador: aprobar cuentas de cuidador y nutricionista, suspender cuentas, eliminar cuentas y consultar el listado de cuentas. Las operaciones de aprobación, suspensión y eliminación incluyen el registro de la acción en el historial de auditoría.
 
 La verificación del correo, la aprobación de una cuenta por el coordinador y la autorización de una relación de cuidado son condiciones distintas. Verificar el correo no sustituye las otras dos condiciones.
+
+
+La vista E2 representa la gestion de datos de salud y recetas según las funcionalidades recogidas en el documento planificación/plan-iteracion-e2
 
 El modelo no completa los módulos de Gestión de usuarios y Guía interactiva. Quedan pendientes las siguientes funciones:
 
@@ -69,6 +72,7 @@ Los objetivos de esta tabla son resúmenes. Las descripciones detalladas quedan 
 | UC-09 | Consultar ayuda | Consultar las instrucciones y los temas de ayuda de las funciones seleccionadas. | Principal: Usuario. |
 | UC-10 | Recorrer bienvenida | Conocer las funciones básicas mediante el recorrido del primer acceso, con la posibilidad de omitirlo. | Principal: Usuario registrado. |
 | UC-11 | Enviar correo electrónico | Enviar el mensaje que necesita el caso de uso que lo incluye. | Apoyo: Servicio de correo electrónico. No se asigna un actor principal independiente. |
+| UC-12 | a | a. | a |
 | UC-31 | Aprobar cuenta de cuidador o nutricionista | Aprobar una cuenta solicitada con perfil de cuidador o nutricionista, conforme a las condiciones del perfil. | Principal: Coordinador. |
 | UC-32 | Suspender cuenta de usuario activa | Suspender una cuenta de usuario que se encuentra activa. | Principal: Coordinador. |
 | UC-33 | Eliminar cuenta de usuario | Eliminar una cuenta de usuario y conservar el contenido publicado cuando corresponda a un cuidador. | Principal: Coordinador. |
@@ -100,6 +104,16 @@ UC-35 es una subfunción compartida. No representa una operación que el Coordin
 ![Vista de acceso, cuentas y ayuda de E1](Imagenes/casos-de-uso-acceso-cuentas-ayuda-e1.png)
 
 **Relaciones entre casos de uso.** UC-01 y UC-04 incluyen UC-11. Ambos necesitan enviar un correo para completar el comportamiento previsto. Las flechas de inclusión apuntan desde cada caso base hacia UC-11. La participación del Servicio de correo electrónico se representa mediante su asociación con UC-11.
+
+### 4.2 Vista de acceso, cuentas y ayuda de E2
+
+**Frontera del sistema:** Proyecto Simbiosis.
+
+**Alcance:** Registro y acceso local, condiciones por perfil, gestión básica de cuentas, ayuda contextual y bienvenida. La vista contiene siete actores y los quince casos de uso del apartado 3.
+
+![Vista de recetas y datos de salud](Imagenes/casos-de-uso-salud-recetas-e2.png)
+
+
 
 UC-31, UC-32 y UC-33 incluyen UC-35. Las flechas de inclusión apuntan desde cada uno de esos casos hacia UC-35. Cuando se realiza una de esas acciones administrativas, el sistema registra la fecha, la hora y el tipo de acción.
 
