@@ -109,7 +109,7 @@ UC-35 es una subfunción compartida. No representa una operación que el Coordin
 
 **Frontera del sistema:** Proyecto Simbiosis.
 
-**Alcance:** Registro y acceso local, condiciones por perfil, gestión básica de cuentas, ayuda contextual y bienvenida. La vista contiene siete actores y los quince casos de uso del apartado 3.
+**Alcance:**Publicación y validación de recetas
 
 ![Vista de recetas y datos de salud](Imagenes/casos-de-uso-salud-recetas-e2.png)
 
