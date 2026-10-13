@@ -97,7 +97,7 @@ UC-35 es una subfunción compartida. No representa una operación que el Coordin
 
 **Alcance:** Registro y acceso local, condiciones por perfil, gestión básica de cuentas, ayuda contextual y bienvenida. La vista contiene siete actores y los quince casos de uso del apartado 3.
 
-![Vista de acceso, cuentas y ayuda de E1](imagenes/casos-de-uso-acceso-cuentas-ayuda-e1.png)
+![Vista de acceso, cuentas y ayuda de E1](Imagenes/casos-de-uso-acceso-cuentas-ayuda-e1.png)
 
 **Relaciones entre casos de uso.** UC-01 y UC-04 incluyen UC-11. Ambos necesitan enviar un correo para completar el comportamiento previsto. Las flechas de inclusión apuntan desde cada caso base hacia UC-11. La participación del Servicio de correo electrónico se representa mediante su asociación con UC-11.
 
