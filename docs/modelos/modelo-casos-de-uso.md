@@ -356,7 +356,7 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
 
 **Preguntas abiertas:** no se requieren preguntas adicionales para el comportamiento cubierto por el acta. La ausencia de un FR específico para la consulta del detalle queda registrada en el respaldo del modelo; no se resuelve atribuyendo esa función a un requisito distinto.
 
-![Diagrama de actividad de UC-21 · Buscar recetas](imagenes/actividad-buscar-recetas-uc21.png)
+![Diagrama de actividad de UC-21 · Buscar recetas](Imagenes/actividad-buscar-recetas-uc21.png)
 
 
 ## 7 Continuidad entre iteraciones
